@@ -6,7 +6,9 @@ from __future__ import absolute_import
 
 from . import *
 from nnunet_mednext.network_architecture.mednextv1.MedNextV1 import MedNeXt
+from nnunet_mednext.network_architecture.mednextv1.MedNextV1_Encoder import MedNeXt_Encoder
 from nnunet_mednext.network_architecture.mednextv1.create_mednext_v1 import create_mednext_v1
+from nnunet_mednext.network_architecture.mednextv1.create_mednext_encoder_v1 import create_mednext_encoder_v1
 from nnunet_mednext.network_architecture.mednextv1.blocks import \
     MedNeXtBlock, MedNeXtUpBlock, MedNeXtDownBlock
 from nnunet_mednext.run.load_weights import upkern_load_weights
