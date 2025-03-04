@@ -1,7 +1,7 @@
 from setuptools import setup, find_namespace_packages
 
 setup(name='mednextv1',
-      packages=find_namespace_packages(include=["mednextv1", "mednextv1.*"]),
+      packages=find_namespace_packages(include=["mednextv1","nnunet_mednext" "mednextv1.*"]),
       version='1.7.0',
       description='nnU-Net. Framework for out-of-the box biomedical image segmentation.',
       url='https://github.com/MIC-DKFZ/mednextv1',
