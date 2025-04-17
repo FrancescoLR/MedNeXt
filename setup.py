@@ -24,6 +24,8 @@ setup(name='mednextv1',
             "nibabel", 
             "tifffile", 
             "matplotlib",
+            "torchio",
+            "monai"
       ],
       entry_points={
           'console_scripts': [
